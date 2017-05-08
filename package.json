@@ -1,0 +1,24 @@
+{
+  "name": "json2yaml",
+  "version": "0.1.0",
+  "description": "Javascript JSON to YAML converter",
+  "main": "src/json2yaml.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appscode/json2yaml.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/appscode/json2yaml/issues"
+  },
+  "homepage": "https://github.com/appscode/json2yaml#readme"
+}
