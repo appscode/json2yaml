@@ -17,3 +17,9 @@ This outputs
     hello2:
       - hello
       - world
+
+Acknowledgement
+---------------
+
+For [string conversion](http://symfony.com/doc/current/components/yaml/yaml_format.html#strings), we're using [yaml.js](https://github.com/jeremyfa/yaml.js)'s [Escaper](https://github.com/jeremyfa/yaml.js/blob/develop/lib/Escaper.js) and [Pattern](https://github.com/jeremyfa/yaml.js/blob/develop/lib/Pattern.js).
+

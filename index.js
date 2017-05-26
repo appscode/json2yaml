@@ -1,3 +1,4 @@
+var Escaper = require('./lib/Escaper');
 var spacing = "  ";
 
 function getType(obj) {
@@ -77,7 +78,13 @@ function normalizeString(str) {
   if (str.match(/^[\w]+$/)) {
     return str;
   } else {
-    return '"'+escape(str).replace(/%u/g,'\\u').replace(/%U/g,'\\U').replace(/%/g,'\\x')+'"';
+    if (Escaper.requiresDoubleQuoting(str)) {
+      return Escaper.escapeWithDoubleQuotes(str);
+    }
+    if (Escaper.requiresSingleQuoting(str)) {
+      return Escaper.escapeWithSingleQuotes(str);
+    }
+    return str;
   }
 }
 
