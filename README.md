@@ -17,3 +17,9 @@ This outputs
     hello2:
       - hello
       - world
+
+Acknowledgement
+---------------
+
+For better special character escaping, we're using [yaml.js](https://github.com/jeremyfa/yaml.js)'s [Escaper](https://github.com/jeremyfa/yaml.js/blob/develop/lib/Escaper.js) and [Pattern](https://github.com/jeremyfa/yaml.js/blob/develop/lib/Pattern.js).
+
