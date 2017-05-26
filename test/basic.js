@@ -1,5 +1,5 @@
 // to be run using nodejs
-var json2yaml = require('../src/json2yaml').json2yaml;
+var json2yaml = require('../index');
 function test(obj) {
   console.log('TESTING:');
   console.log(obj);

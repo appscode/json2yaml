@@ -2,14 +2,14 @@
   "name": "json2yaml",
   "version": "0.1.0",
   "description": "Javascript JSON to YAML converter",
-  "main": "src/json2yaml.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/basic.js"
   },
   "repository": {
     "type": "git",
