@@ -6,7 +6,9 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "yamljs": "^0.2.10"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "node test/basic.js"
