@@ -1,4 +1,4 @@
-var Escaper = require('./lib/Escaper');
+var Escaper = require('yamljs/lib/Escaper');
 var spacing = "  ";
 
 function getType(obj) {
