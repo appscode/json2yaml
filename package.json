@@ -1,6 +1,6 @@
 {
   "name": "@appscode/json2yaml",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Javascript JSON to YAML converter",
   "main": "index.js",
   "directories": {
